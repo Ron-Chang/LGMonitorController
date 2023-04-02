@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "LGMonitorController"
+version = "0.0.0"
+description = ""
+authors = ["Subramaniyam Raizada <sub@subraizada.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.13"
+hid = "^1.0.5"
+pyqt6 = "^6.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+neovim = "^0.3.1"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+black = "^23.3.0"
+mypy = "^1.1.1"
+pre-commit = "^3.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
