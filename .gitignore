@@ -1,1 +1,30 @@
-__pycache__
+# OSX
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# Python
+.pytest_cache/
+__pycache__/
+*venv/
+pyvenv.cfg
+
+# Env
+**/env/**
+.env*
+
+# App Chore
+db/
+**/info
+**/logs
+migrations/
+**/tmp.*
+**/tmp
+**/*.tmp
+
+# Build
+*.egg-info
+dist/*
+build/*
